@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class EntrarServidor : MonoBehaviour
 {
-    public void Entrar()
-    {
+   public void Entrar()
+   {
         NetworkManager.Singleton.StartClient();
-    }
+   }
 
 }
